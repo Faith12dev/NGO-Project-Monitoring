@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.login-box, .dashboard {
+    background: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover { background: #45a049; }
+
+ul { list-style: none; padding: 0; }
+ul li a {
+    display: block;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ul li a:hover { background: #0056b3; }
+
+.logout {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: red;
+    text-decoration: none;
+}
+.error { color: red; }
